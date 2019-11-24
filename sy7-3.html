@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>sy7-3.html</title>
+<style type="text/css">
+		body{
+			background-image:url(images/xinshengbuxi.jpg)}
+		.main{
+			position:relative;
+			width:1290px;
+			height:637px;
+			margin:auto;
+		}
+		.bottom{
+			position:absolute;
+			right:0px;;
+			bottom:-8px;
+		}
+		.crisp{
+			position:absolute;
+			width:137px;
+			height:35px;
+			left:188px;
+			bottom:12px;
+			background-image:url("images/xiangqin.png");
+		}
+		.doinb{
+			position:absolute;
+			width:288px;
+			height:170px;
+			right:0px;
+			top:0px;
+			background-image:url("images/lol.png")}
+		form{
+			width:248px;
+			height:268px;
+			background-color:rgba(0,0,0,0.9);
+			padding:200px 20px 20px 20px;
+			color:#666;
+		}
+		input{
+			display:block;
+		}
+		[type="text"],[type="password"]{
+			width:250px;
+			height:38px;
+			border:1px solid #389CAD;
+			margin-bottom:15px;
+			font-size:16px;
+			text-indent:50px;
+		}
+		[type="text"]{
+			background:url("images/zhanghao.jpg") no-repeat 0 -2px;
+		}
+		[type="password"]{
+			background:url("images/mima.jpg") no-repeat 0 -2px;
+		}
+		[type="checkbox"]{
+			display:inline;
+			vertical-align:middle;
+		}
+		label{
+			font-size:12px;
+		}
+		.reg{
+			text-align:end;
+			font-size:12px;
+			margin-top:-18px;
+		}
+		.reg a{
+			color:#999;
+		}
+		.reg a:hover{
+			color:#363;
+			text-decoration:underline;
+		}
+		[type="submit"]{
+			width:168px;
+			height:44px;
+			margin:25px auto;
+			background-image:url("images/jinru.png");
+			border:none;
+		}
+		.related{
+			width:288px;
+			height:145px;
+			background-color:rgba(0,0,0,0.9);
+			padding-top:20px;
+			text-align:center;
+			font-size:14px;
+			color:#666;
+		}
+    </style>
+</head>
+
+<body>
+<div class="main">
+    <div class="bottom">
+    	<div class="doinb"></div>
+    	<form action="#" method="post" name="form">
+            <input type="text" name="user" placeholder="账号">
+            <input type="password" name="password" placeholder="填写密码">
+            <input type="checkbox" name="account" value="1" id="account">
+            <label for="account">记住账号</label><br/>
+            <input type="checkbox" name="account" value="1" id="account">
+            <label for="account">我已详细阅读并同意</label>
+            <div class="reg">
+                <br/><a href="#">腾讯游戏用户协议</a> 和 <a href="#">隐私保护指引</a>
+            </div>
+            <input type="submit" name="submit" value="">
+        </form>
+        <div class="related">
+            合作网站账号登录：<br/>
+            <a href="#"><img src="images/weixin2.png" alt=""></a><br/>
+            <a href="#"><img src="images/qq.png" alt=""></a>
+        </div>
+    </div>
+	<a href="#"><div class="crisp"></div></a>
+</div>
+</body>
+</html>
